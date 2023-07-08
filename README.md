@@ -1,11 +1,22 @@
+About perl-test-differences-feedstock
+=====================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/perl-test-differences-feedstock/blob/main/LICENSE.txt)
+
 About perl-test-differences
-===========================
+---------------------------
 
 Home: https://metacpan.org/pod/Test::Differences
 
 Package license: GPL-1.0-or-later OR Artistic-1.0-Perl
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/perl-test-differences-feedstock/blob/main/LICENSE.txt)
+Summary: Test strings and data structures and show differences if not ok
+About perl-test-differences
+---------------------------
+
+Home: https://metacpan.org/pod/Test::Differences
+
+Package license: GPL-1.0-or-later OR Artistic-1.0-Perl
 
 Summary: Test strings and data structures and show differences if not ok
 
@@ -30,14 +41,14 @@ Current build status
               <td>linux_64</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17804&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/perl-test-differences-feedstock?branchName=main&jobName=linux&configuration=linux_64_" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/perl-test-differences-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>osx_64</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17804&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/perl-test-differences-feedstock?branchName=main&jobName=osx&configuration=osx_64_" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/perl-test-differences-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_" alt="variant">
                 </a>
               </td>
             </tr>
