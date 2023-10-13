@@ -3,6 +3,7 @@ About perl-test-differences-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/perl-test-differences-feedstock/blob/main/LICENSE.txt)
 
+
 About perl-test-differences
 ---------------------------
 
@@ -11,6 +12,7 @@ Home: https://metacpan.org/pod/Test::Differences
 Package license: GPL-1.0-or-later OR Artistic-1.0-Perl
 
 Summary: Test strings and data structures and show differences if not ok
+
 About perl-test-differences
 ---------------------------
 
