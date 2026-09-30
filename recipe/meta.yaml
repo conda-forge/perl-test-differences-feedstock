@@ -4,15 +4,15 @@
 
 package:
   name: {{ name }}
-  version: {{ version }}
+  version: "{{ version }}"
 
 source:
   url: https://cpan.metacpan.org/authors/id/D/DC/DCANTRELL/Test-Differences-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
-  skip: true  # [win]
-  number: 0
+  noarch: generic
+  number: 1
   run_exports:
     weak:
       - {{ name }} ={{ version }}
@@ -27,6 +27,7 @@ requirements:
   run:
     - perl
     - perl-text-diff        # has no run export defined
+    - perl-capture-tiny
 
 test:
   imports:
@@ -36,8 +37,8 @@ about:
   home: https://metacpan.org/pod/Test::Differences
   license: GPL-1.0-or-later OR Artistic-1.0-Perl
   license_file:
-    - {{ environ["PREFIX"] }}/man/man1/perlartistic.1
-    - {{ environ["PREFIX"] }}/man/man1/perlgpl.1
+    - {{ environ["PREFIX"] }}/lib/perl5/core_perl/pod/perlartistic.pod
+    - {{ environ["PREFIX"] }}/lib/perl5/core_perl/pod/perlgpl.pod
   summary: Test strings and data structures and show differences if not ok
 
 extra:
